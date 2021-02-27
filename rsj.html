@@ -1,0 +1,389 @@
+<html>
+<head>
+<style>
+*{
+background-color:black;
+background-repeat:no-repeat;
+
+}
+.name p{
+text-align:center;
+font-weight:30px;
+font-size:49px;
+color:green;
+animation-name:sample;
+animation-duration:9s;
+background-attachment:fixed;
+}
+@keyframes sample{
+0%{
+color:red;
+text-shadow:20px 30px 40px red;
+margin-bottom:-30px;
+}
+
+30%{
+letter-spacing:20px;
+margin-bottom:-49px;
+color:pink;
+text-shadow:30px 40px 50px blue;
+}
+50%{
+letter-spacing:20px;
+margin-bottom:-40px;
+color:blue;
+text-shadow:40px 50px 60px green;
+}
+75%{
+text-shadow:60px 80px 90px white;
+letter-spacing:20px;
+margin-bottom:-40px;
+color:aqua;
+}
+
+100%{
+color:blue;
+text-shadow:70px 80px 100px aqua;
+
+}
+}/*
+.data{
+
+font-size:40px;
+color: black;
+
+
+
+
+border-radius:39px;
+text-align:right;
+}*/
+#subjects{
+font-size:40px;
+color:aqua;
+text-align:center;
+background-color:black;
+
+height:300px;
+width:20%;
+border-radius:20px 30px ;
+text-align:center;
+text-transform:uppercase;
+border:4px green;
+border-style:dotted;
+margin-top:20%;
+
+
+}
+#new{
+font-size:40px;
+color:blue;
+text-align:center;
+
+background-repeat:no-repeat;
+margin-left:1100px;
+height:500px;
+width:20%;
+
+
+border-radius:40px 40px 40px 0px ;
+text-transform:uppercase;
+border:3px solid red;
+
+}
+/*
+#new:hover{
+letter-spacing:4px;
+border:4px yellow;
+height:550px;
+
+}
+*/
+.addmission{
+font-size:45px;
+color:green;
+background-color:blue;
+border-radius:30px;
+border:4px aqua;
+margin-left:550px;
+margin-top:200px;
+height:100px;
+width:23%;
+text-align:center;
+text-transform:uppercase;
+
+}/*
+.image{
+background-image:url("downloadfile0001.jpg");
+height:100px;
+width:100px;
+margin-top:100px;
+
+}
+*/
+.details{
+font-size:50px;
+border-radius:60px;
+border:4px aqua;
+color:blue;
+border-radius:30px;
+border:4px red;
+background-color:aqua;
+height:60px;
+width:40%;
+margin-left:auto;margin-right:auto;
+text-align:center;
+}
+.ses{
+color:blue;
+background-color:aqua;
+font-size:40px;
+float:left;
+border:2px red;
+height:50px;
+width:300px;
+text-align:center;
+border-radius:40px;
+margin-left:70px;
+
+}
+
+.sec{
+color:blue;
+background-color:yellow;
+font-size:40px;
+float:right;
+border:2px red;
+height:50px;
+width:300px;
+text-align:center;
+border-radius:40px;
+margin-right:70px;
+
+}
+.sec {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+  margin-top:20px;
+  text-decoration:none;
+  }
+.sec .tooliptext {
+  visibility: hidden;
+  width: 120px;
+  
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.sec .tooliptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+}
+.sec:hover .tooliptext {
+  visibility: visible;
+  margin-top:200px;
+   background-color:red;
+  height:100px;
+  width:250px;
+  border:3px red;
+  letter-spacing:3px;
+  transition:0.9s;
+  border-radius:30px;
+  text-align:center;
+}
+.sec:hover{
+background-color:red;
+letter-spacing:-3px;
+transition:0.9s;
+}
+.dat{
+text-align:left;
+font-size:30px;
+border:2px red;
+}
+.values{
+float:left;
+font-size:20px;
+color:white;
+text-align:center;
+background-color:black;
+margin-top:60px;
+height:500px;
+width:900px;
+border-radius:20px 30px ;
+text-transform:uppercase;
+border:3px black;
+text-align:justify;
+
+
+}
+.val{
+
+font-size:20px;
+color:white;
+text-align:center;
+background-color:black;
+margin-top:60px;
+height:40%;
+width:60%;
+border-radius:20px 30px ;
+text-transform:uppercase;
+border:3px black;
+float:right;
+text-align:justify;
+}
+#s1{
+color:blue;
+}
+
+
+.ses {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+  margin-top:20px;
+}
+
+.ses .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.ses .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+}
+
+.ses:hover .tooltiptext {
+  visibility: visible;
+  margin-top:200px;
+  background-color:blue;
+  height:100px;
+  width:250px;
+  border:3px red;
+  letter-spacing:3px;
+  transition:0.7s;
+  border-radius:30px;
+}
+.ses:hover{
+background-color:red;
+letter-spacing:-3px;
+transition:0.5s;
+}
+a{
+text-decoration:none;
+background-color:yellow;
+border-radius:30px;
+}
+</style>
+</head>
+<title>
+</title>
+<body>
+<div class="name">
+<p>RSJ PUBLIC SCHOOL</p>
+<DIV CLASS ="values">
+Paragraph On Newspaper 100, 150, 200, 250 To 300 Words for Kids, Students And Children
+July 13, 2020 by Prasanna
+
+Paragraph On Newspaper: After the popularisation of print media in the late 18th Century, newspapers become a regular thing. The printing press brought with itself the advent of the era of information and knowledge.The easiest way to transfer information about what was happening around the world was the newspaper.Newspapers begin printing early in the morning and are distributed in a systematic manner.
+
+You can read more Paragraph Writing about articles,  people, sports, technology many more.
+
+Paragraph On Newspaper – 100 Words for Classes 1, 2, 3 
+Newspapers are printed in several languages. are delivered to the doorstep of individuals  in the morning. Newspapers are printed in local languages.<br>They are also printed in several languages that are widely accepted. They newspapers may be dailies.
+
+A weekly subscription will mean that the newspaper or the digest is delivered to your family once a week. , monthly and yearly subscriptions are also present. <br> subscriptions can be for magazines that delivernot only the news but also other entertaining stories, pictures, and poems.
+
+On several occasions, you may find a newspaper stripthat comes attached with dailies once a week or month.
+
+
+</DIV>
+</div>
+<DIV CLASS ="val">
+Paragraph On Newspaper 100, 150, 200, 250 To 300 Words for Kids, Students And Children
+July 13, 2020 by Prasanna
+
+Paragraph On Newspaper: After the popularisation of print media in the late 18th Century, newspapers become a regular thing. The printing press brought with itself the advent of the era of information and knowledge.The easiest way to transfer information about what was happening around the world was the newspaper.Newspapers begin printing early in the morning and are distributed in a systematic manner.
+
+You can read more Paragraph Writing about articles,  people, sports, technology many more.
+
+Paragraph On Newspaper – 100 Words for Classes 1, 2, 3 
+Newspapers are printed in several languages. are delivered to the doorstep of individuals  in the morning. Newspapers are printed in local languages.<br>They are also printed in several languages that are widely accepted. They newspapers may be dailies.
+
+A weekly subscription will mean that the newspaper or the digest is delivered to your family once a week. , monthly and yearly subscriptions are also present. <br> subscriptions can be for magazines that delivernot only the news but also other entertaining stories, pictures, and poems.
+
+On several occasions, you may find a newspaper stripthat comes attached with dailies once a week or month.
+
+
+</DIV>
+
+
+<div id="new">
+
+
+welcome to rsj public school
+we are providing a best education 
+for bright future of child
+
+</div>
+
+
+
+ <div id="subjects">
+ subjects physics<br>chemistry<br>math<br>computer science<br>
+</div>
+
+<div class="addmission">
+ addmission details
+</div>
+<div class="image">
+</div>
+<div class="details">
+addmission secession
+</div>
+
+<div class="sec">
+<a href="file..html">2020-21</a>
+
+ <span class="tooliptext">addmission here</span>
+</div>
+<div class="ses ">
+2018-19
+ <span class="tooltiptext">addmission closed</span>
+</div>
+
+
+ 
+</div>
+</body>
+</html>
