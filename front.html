@@ -1,0 +1,204 @@
+
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <meta name="viewport"content="width=device-width,initial-scale=1.0">
+  <title>Document</title>
+<style>
+body{
+
+background-color:black;
+border:3px red;
+padding:5px;
+text-transform:uppercase;
+background-repeat:no-repeat;
+
+
+}
+.image{
+/*background-image:url("f778e4e4ee6d280538f96b641920d693.png");
+opacity:0.5;
+height:20%;
+width:50%;
+border-radius:30px 30px ;
+background-repeat:no-repeat;
+margin-left:auto;
+margin-right:auto;
+margin-left:auto;
+margin-right:auto;
+padding-top:600px;
+*/
+
+} 
+#s1{
+text-align:center;
+border-radius:40px;
+font-size:40px;
+margin-top:70px;
+
+margin-left:40%;
+
+margin-top:300px;
+
+background-color:aqua;
+}
+option{
+margin:auto;
+min-height:300px;
+color:black;
+}
+/*
+.back{
+background-image:url("skp.jpg");
+background-repeat:no-repeat;
+height:100%;
+width:100%;
+margin-left:auto;
+margin-right:auto;
+}
+/
+.img{
+background-image:url("f778e4e4ee6d280538f96b641920d693.png");
+opacity:0.5;
+height:20%;
+width:50%;
+border-radius:30px 30px ;
+background-repeat:no-repeat;/*
+margin-left:auto;
+margin-right:auto;
+margin-left:auto;
+margin-right:auto;
+padding-top:600px;
+}
+/*
+img{
+height:100%;
+width:100%;
+}
+*/
+.nes{
+min-height:20px;
+}
+@keyframes marquee{
+0%{
+color:red;
+
+margin-bottom:-40px;
+background-color:red;
+}
+30%{
+letter-spacing:20px;
+margin-bottom:-49px;
+background-color:blue
+
+}
+50%{
+letter-spacing:20px;
+margin-bottom:-40px;
+background-color:green;
+
+}
+75%{
+letter-spacing:20px;
+margin-bottom:-40px;
+background-color:aqua;
+}
+}
+.marquee{
+text-align:center;
+padding:5px;
+font-size:50px;
+color:(20,49,40);
+background-color:aqua;
+animation-name:marquee;
+animation-duration:10s;
+border-radius:40px;
+
+
+
+
+}/*
+.value{
+background-image:url("1.jpg");
+height:100%;
+width:100%;
+
+margin-left:auto;
+margin-right:auto;
+border-radius:50%;
+}*/
+/*
+
+.ne{
+position:relative;
+width:90%;
+margin-top:40px;
+img{width:100%;
+}
+*/
+}
+
+
+</style>
+  <title>Demo of page redirection after selection of a drop down listbox menu</title> 
+  <script language="javascript">
+function SelectRedirect(){
+// ON selection of section this function will work
+//alert( document.getElementById('s1').value);
+
+switch(document.getElementById('s1').value)
+{
+case "allhabad":
+window.location="namesschool.html";
+break;
+
+case "bhadohi":
+window.location="new.html";
+break;
+
+case "gagiyabad":
+window.location="../sql_tutorial/site_map.php";
+break;
+case "jaunpur":
+window.location="site_map.php";
+break;
+
+case "chunar":
+window.location="../html_tutorial/site_map.php";
+break;
+
+
+default:
+window.location="../"; 
+break;
+}
+}
+
+</script> 
+ </head> 
+ <body> 
+  
+ 
+  <div class="marquee">
+
+online schooling.in
+</div>
+<div class="nes">
+
+
+  <select id="s1" name="section" onchange="SelectRedirect();"> <option value="">Select your district</option> <option value="allhabad">allhabad</option>
+  <option value="bhadohi">bhadohi</option> <option value="Mgagiyabad">gagiyabad</option> <option value="jaunpur">jaunpur</option> <option value="chunar">chunar</option> 
+   <option value="allhabad">allhabad</option> 
+  </select> 
+  </div>
+  
+ <div class="image">
+ </div>
+
+
+
+</body></html>
